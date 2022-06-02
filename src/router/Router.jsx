@@ -8,13 +8,13 @@ import Contact from "../components/pages/Contact";
 
 const Router = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/work" element={<Work />} />
-      <Route path="/skill" element={<Skill />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/skill" element={<Skill />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
   );
 };
 
