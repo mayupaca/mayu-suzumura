@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Element } from "react-scroll";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <div class="bg-blue-300 h-screen">
+      <Element name="contact">contact</Element>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
