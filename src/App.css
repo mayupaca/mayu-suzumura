@@ -1,7 +1,13 @@
-/* .App {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+.App {
   text-align: center;
+  background-color: #292929;
+  color: #A6A6A6;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;

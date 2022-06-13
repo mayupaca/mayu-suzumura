@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 
 const Skill = () => {
   return (
-    <div class="bg-orange-300 h-screen">
+    <div class="h-screen">
       <Element name="skill">skill</Element>
     </div>
   );
