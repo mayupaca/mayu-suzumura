@@ -7,7 +7,7 @@ import Work from "./Work";
 
 const PageLayout = () => {
   return (
-    <div class='mr-20 ml-20'>
+    <div class='mr-36 ml-36'>
       <Home />
       <About />
       <Work />

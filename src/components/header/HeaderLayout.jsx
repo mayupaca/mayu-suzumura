@@ -21,7 +21,6 @@ const HeaderLayout = () => {
           resume
         </a>
       </div>
-
     </div>
   );
 };
