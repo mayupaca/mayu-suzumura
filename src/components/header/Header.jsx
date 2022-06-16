@@ -1,17 +1,15 @@
-import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const Header = (props) => {
-  const { headerPage } = props;
-  const [onClickChangeColor, setOnClickChangeColor] = useState(false);
+  const { headerPage, selectedHeader, setSelectedHeader } = props;
   const redText = () => {
-    setOnClickChangeColor(!onClickChangeColor);
+    setSelectedHeader(headerPage);
   };
 
   return (
     <div class="mr-8 cursor-pointer">
       <ScrollLink
-        className={onClickChangeColor ? "text-[#FF5757]" : ""}
+        className={headerPage === selectedHeader ? "text-[#FF5757]" : ""}
         onClick={redText}
         to={headerPage}
         smooth={true}
