@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 const PageBase = (props) => {
   const { name } = props;
   return (
-    <div class="mt-30">
+    <div>
       <Element name={name}></Element>
     </div>
   );

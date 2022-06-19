@@ -6,7 +6,7 @@ const HeaderLayout = () => {
   //usestate初期値 0 = index0
   const [selectedHeader, setSelectedHeader] = useState("home");
   return (
-    <div class="sticky top-0 flex justify-end h-20 text-md pt-10 mr-10 text-center bg-[#292929]">
+    <div class="sticky top-0 flex justify-end h-20 text-md pt-10 mr-10 text-center bg-[#292929] text-[#a6a6a6]">
       {headerPages.map((headerPage) => (
         <Header
           headerPage={headerPage}
