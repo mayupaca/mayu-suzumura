@@ -11,7 +11,7 @@ const About = () => {
     <div className="about">
       <PageBase name={about.name}></PageBase>
 
-      <div className="container-about text-center mx-96">
+      <div className="container-about text-center mx-96 h-[80vh]">
         <h2 class="text-2xl text-[#a6a6a6]">
           &#47;&#42; - - - - - About <span class="text-[#BBED2F]">Me</span> - -
           - - - &#42;&#47;{" "}

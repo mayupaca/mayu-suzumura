@@ -33,7 +33,7 @@ const Work = () => {
   ];
 
   return (
-    <div className="work">
+    <div className="work h-[80vh]">
       <PageBase name={work.name}></PageBase>
       {/* <>はエンティティコードを使う */}
       <h2 class="text-2xl text-[#a6a6a6]">

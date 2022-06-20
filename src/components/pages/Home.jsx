@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="home" class="mt-36 mb-36 mr-28">
+    <div className="home" class="mt-36 mb-36 h-[80vh]">
       <Element name="home"></Element>
       <div
         className="container-home"

@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div className="contact text-right">
       <PageBase name={contact.name}></PageBase>
-      <div className="container-contact mx-96">
+      <div className="container-contact mx-96 h-[80vh]">
         <h2 class="text-2xl text-[#a6a6a6]">
           &#47;&#42; - - - - - <span class="text-[#BBED2F]">I</span> love to
           connect!! - - - - - &#47;&#42;

@@ -13,7 +13,7 @@ const Skill = () => {
   return (
     <div className="skill">
       <PageBase name={skill.name}></PageBase>
-      <div className="container-skill text-center mx-96">
+      <div className="container-skill text-center mx-96 h-[80vh]">
         {/* <>はエンティティコードを使う */}
         <h2 class="text-2xl text-[#a6a6a6]">
           &lt;!- - - - - Skills - - - - -&gt;
@@ -74,7 +74,7 @@ const Skill = () => {
                   <FontAwesomeIcon icon={faLaptopCode} />
                   <p>&nbsp;&nbsp;&nbsp;Database</p>
                 </div>
-                  <p class="text-xl text-left mb-5">PostgreSQL / MySQL / MongoDB </p>
+                  <p class="text-xl text-left mb-5">PostgreSQL / MySQL </p>
               </div>
             </div>
           </div>
