@@ -1,6 +1,5 @@
 // import { BrowserRouter } from "react-router-dom";
 
-import "./App.css";
 import HeaderLayout from "./components/header/HeaderLayout";
 import PageLayout from "./components/pages/PageLayout";
 // import Router from "./router/Router";
