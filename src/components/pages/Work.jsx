@@ -28,7 +28,7 @@ const Work = () => {
 
   return (
     <div name="work" className="w-full h-screen">
-      <div class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white">
+      <div class="max-w-[1000px] mx-auto px-8 justify-center h-full text-white">
         {/* <>はエンティティコードを使う */}
         <h2 class="text-2xl text-[#a6a6a6]">
           &lt;!- - - - - <span class="text-[#BBED2F]">My</span> Work - - - -

@@ -7,7 +7,7 @@ const Contact = () => {
     <div name="contact" className="w-full h-screen">
       <div class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white">
           <h2 class="text-2xl text-[#a6a6a6]">
-            &#47;&#42; - - - - - <span class="text-[#BBED2F]">I</span> love to
+            &#47;&#42; - - - - - <span class="text-[#BBED2F]">Let's&nbsp;</span>
             connect!! - - - - - &#47;&#42;
           </h2>
           <h1 class="my-8 text-3xl">Contact</h1>
