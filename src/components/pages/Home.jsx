@@ -1,28 +1,25 @@
 import React from "react";
-import { Element } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="home" class="mt-36 mb-36 mr-36 h-hull sm:mr-20">
-      <Element name="home"></Element>
+    <div name="home" className="w-full h-screen">
       <div
-        className="container-home"
-        class="grid justify-items-end text-right text-white"
+        class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white"
       >
         <div className="greeting" class="text-7xl">
-          <h1 class="mb-3">Hello World!</h1>
-          <h1 class="mb-3">
-            <span class="text-[#BBED2F]">I</span> am&nbsp;
+          <h1 class="mb-3 flex justify-end">Hello World!</h1>
+          <h1 class="mb-3 flex justify-end">
+            <span class="text-[#BBED2F]">I&nbsp;</span> am&nbsp;
           </h1>
-          <h1 class="mb-3 text-[#BBED2F]">Mayu Suzumura.</h1>
+          <h1 class="mb-3 text-[#BBED2F] flex justify-end">Mayu Suzumura.</h1>
         </div>
         <div className="introduce" class="text-3xl">
-          <h2 class="mb-2.5">
-            I am a <span class="text-[#FF5757]">Japanese</span> living in
+          <h2 class="mb-2.5 flex justify-end">
+            I am a <span class="text-[#FF5757]">&nbsp;Japanese&nbsp;</span> living in
             Canada.
           </h2>
-          <h2>
-            I am a <span class="text-[#FF5757]">web</span> developer.
+          <h2 class="mb-2.5 flex justify-end">
+            I am a <span class="text-[#FF5757]">&nbsp;web&nbsp;</span> developer.
           </h2>
         </div>
       </div>

@@ -1,22 +1,22 @@
-import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Header = (props) => {
-  const { headerPage, selectedHeader, setSelectedHeader } = props;
+  const { headerPage, selectedPage, setSelectedPage } = props;
   const redText = () => {
-    setSelectedHeader(headerPage);
+    setSelectedPage(headerPage);
   };
 
   return (
     <div class="mr-8 cursor-pointer">
-      <ScrollLink
-        className={headerPage === selectedHeader ? "text-[#FF5757]" : ""}
+      <Link
+        className={headerPage === selectedPage ? "text-[#FF5757]" : ""}
         onClick={redText}
         to={headerPage}
         smooth={true}
         duration={500}
       >
         {headerPage}
-      </ScrollLink>
+      </Link>
     </div>
   );
 };

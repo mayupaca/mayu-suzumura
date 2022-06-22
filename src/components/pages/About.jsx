@@ -1,25 +1,18 @@
 import React from "react";
-import PageBase from "./PageBase";
 
 const About = () => {
-  const about = [
-    {
-      name: "about",
-    },
-  ];
+  
   return (
-    <div className="about">
-      <PageBase name={about.name}></PageBase>
-
-      <div className="container-about text-center mx-96 h-[80vh]">
-        <h2 class="text-2xl text-[#a6a6a6]">
-          &#47;&#42; - - - - - About <span class="text-[#BBED2F]">Me</span> - -
+    <div name="about" className="w-full h-screen">
+      <div class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white">
+        <h2 class="text-2xl text-[#a6a6a6] flex justify-center">
+          &#47;&#42; - - - - - &nbsp;About <span class="text-[#BBED2F]">&nbsp;Me</span>&nbsp; - -
           - - - &#42;&#47;{" "}
         </h2>
-        <h1 class="my-8 text-3xl">
-          I, My, Me, <span class="text-[#BBED2F]">and</span> Mine
+        <h1 class="my-8 text-3xl flex justify-center">
+          I, My, Me, <span class="text-[#BBED2F]">&nbsp;and&nbsp;</span> Mine
         </h1>
-        <p>
+        <p class="flex justify-center">
           Pelt around the house and up and down stairs chasing phantoms purr for
           prance along on top of the garden fence, annoy the neighbor's dog and
           make it bark ooooh feather moving feather! flex claws on the human's
