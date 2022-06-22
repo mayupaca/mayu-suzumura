@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Contact = () => {
   return (
     <div name="contact" className="w-full h-screen">
-      <div class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white">
+      <div class="max-w-7xl mx-auto flex flex-col justify-center h-full text-white">
           <h2 class="text-2xl text-[#a6a6a6]">
             &#47;&#42; - - - - - <span class="text-[#BBED2F]">Let's&nbsp;</span>
             connect!! - - - - - &#47;&#42;

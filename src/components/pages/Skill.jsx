@@ -17,18 +17,18 @@ import { ReactComponent as MySql } from "../../assets/mysql.svg";
 
 const Skill = () => {
   return (
-    <div name="skill" className="w-full h-screen">
-      <div class="max-w-[1000px] mx-auto px-8 flex text-center flex-col justify-center items-center h-full text-white">
+    <div name="skill" className="w-full h-screen text-center">
+      <div class="max-w-7xl mx-auto items-center h-full text-white">
         {/* <>はエンティティコードを使う */}
         <h2 class="text-2xl text-[#a6a6a6]">
           &lt;!- - - - - Skills - - - - -&gt;
         </h2>
-        <div class="mt-14 w-[40rem]">
+        <div class="mt-20">
           <div className="soft-skill">
             <h1 class="mb-10 text-3xl">
               &#123;&nbsp;<span class="text-[#BBED2F]">Soft</span> Skills&nbsp;&#125;
             </h1>
-            <div className="skill" class="flex flex-row justify-between">
+            <div className="skill" class="flex flex-row justify-evenly">
               <div>
                 <div class="flex flex-row text-2xl mb-3">
                   <span class="text-[#6331ED]">
@@ -57,7 +57,7 @@ const Skill = () => {
                   <p>&nbsp;&nbsp;&nbsp;Teamwork</p>
                 </div>
                 <div class="flex flex-row text-2xl mb-3">
-                  <span class="text-[#6331ED]">
+                  <span class="text-[#6331ED] ">
                     <FontAwesomeIcon icon={faHandshake} />
                   </span>
                   <p>&nbsp;&nbsp;&nbsp;Flexibility</p>
@@ -73,27 +73,27 @@ const Skill = () => {
           </div>
 
           <div className="hard-skill">
-            <h1 class="mb-10 mt-14 text-3xl">
+            <h1 class="my-14 text-3xl">
             &#123;&nbsp;<span class="text-[#BBED2F]">Hard</span> Skills&nbsp;&#125;
             </h1>
             <div className="teck-stacks">
               <div
                 className="stack"
-                class="text-xl text-left mb-5 flex flex-row justify-center flex-wrap"
+                class="mb-5 grid grid-cols-4 justify-items-center"
               >
-                <JavaScript class="w-24 h-24 mx-8 mb-16"/>
-                <ReactLogo class="w-24 h-24 mx-8 mb-16"/>
-                <Html class="w-24 h-24 mx-8 mb-16"/>
-                <Css class="w-24 h-24 mx-8 mb-16"/>
-                <Sass class="w-24 h-24 mx-8 mb-16"/>
-                <Bootstrap class="w-24 h-24 mx-8 mb-16"/>
-                <Tailwind class="w-24 h-24 mx-8 mb-16"/>
-                <MaterialUi class="w-24 h-24 mx-8 mb-16"/>
-                <Node class="w-24 h-24 mx-5 mb-16"/>
-                <Express class="w-24 h-24 mx-8 mb-16"/>
-                <Firebase class="w-24 h-24 mx-8 mb-16"/>
-                <PostgreSql class="w-24 h-24 mx-8 mb-16"/>
-                <MySql class="w-24 h-24 mx-8 mb-16"/>
+                <JavaScript class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <ReactLogo class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Html class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Css class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Sass class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Bootstrap class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Tailwind class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <MaterialUi class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Node class="w-28 h-28 mx-5 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Express class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <Firebase class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <PostgreSql class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <MySql class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
               </div>
             </div>
           </div>
