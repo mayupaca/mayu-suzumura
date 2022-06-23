@@ -9,7 +9,7 @@ const Header = (props) => {
   return (
     <div class="mr-8 cursor-pointer">
       <Link
-        className={headerPage === selectedPage ? "text-[#FF5757]" : ""}
+        className={headerPage === selectedPage ? "neon-red text-[#FF5757]" : ""}
         onClick={redText}
         to={headerPage}
         smooth={true}

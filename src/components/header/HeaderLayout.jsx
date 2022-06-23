@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "./Header";
+import "../../style/neon.css"
 
 const HeaderLayout = () => {
   const headerPages = ["home", "about", "work", "skill", "contact"];
@@ -7,7 +8,7 @@ const HeaderLayout = () => {
   const [selectedPage, setSelectedPage] = useState("home");
   return (
     <div className="header">
-      <div class="fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#292929] text-[#a6a6a6]">
+      <div class="fixed w-full h-[80px] flex flex-row justify-end items-center px-4 bg-[#292929] text-[#a6a6a6]">
         {headerPages.map((headerPage) => (
           <Header
             headerPage={headerPage}
@@ -19,7 +20,7 @@ const HeaderLayout = () => {
         ))}
         <div
           className="resume"
-          class="w-28 h-8 text-center text-[#FF5757] border border-[#FF5757] rounded-md"
+          class="neon-green h-8 text-center text-[#FF5757]"
         >
           <a
             href="https://drive.google.com/file/d/114evEJ_JhptvgWkq5vlRsa76ry_yElOW/view?usp=sharing"

@@ -10,7 +10,7 @@ const About = () => {
           - - - &#42;&#47;{" "}
         </h2>
         <h1 class="my-8 text-3xl flex justify-center">
-          I, My, Me, <span class="text-[#BBED2F]">&nbsp;and&nbsp;</span> Mine
+          <p class="neon-yellow">Nice to Meet You&nbsp;:)</p>
         </h1>
         <p class="flex justify-center">
           Pelt around the house and up and down stairs chasing phantoms purr for

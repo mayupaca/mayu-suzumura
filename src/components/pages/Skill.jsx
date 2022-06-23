@@ -1,4 +1,5 @@
 import React from "react";
+import "../../style/neon.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandshake } from "@fortawesome/free-regular-svg-icons";
 import { ReactComponent as JavaScript } from "../../assets/javascript.svg";
@@ -26,7 +27,7 @@ const Skill = () => {
         <div class="mt-20">
           <div className="soft-skill">
             <h1 class="mb-10 text-3xl">
-              &#123;&nbsp;<span class="text-[#BBED2F]">Soft</span> Skills&nbsp;&#125;
+              &#123;&nbsp;<span class="neon-green text-[#BBED2F]">Soft</span> Skills&nbsp;&#125;
             </h1>
             <div className="skill" class="flex flex-row justify-evenly">
               <div>
@@ -74,26 +75,26 @@ const Skill = () => {
 
           <div className="hard-skill">
             <h1 class="my-14 text-3xl">
-            &#123;&nbsp;<span class="text-[#BBED2F]">Hard</span> Skills&nbsp;&#125;
+            &#123;&nbsp;<span class="neon-green text-[#BBED2F]">Hard</span> Skills&nbsp;&#125;
             </h1>
             <div className="teck-stacks">
               <div
                 className="stack"
                 class="mb-5 grid grid-cols-4 justify-items-center"
               >
-                <JavaScript class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <ReactLogo class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Html class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Css class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Sass class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Bootstrap class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Tailwind class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <MaterialUi class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Node class="w-28 h-28 mx-5 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Express class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <Firebase class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <PostgreSql class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
-                <MySql class="w-28 h-28 mx-8 mb-16 p-5 bg-slate-600 rounded-2xl shadow-2xl shadow-gray-400"/>
+                <JavaScript class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <ReactLogo class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Html class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Css class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Sass class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Bootstrap class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Tailwind class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <MaterialUi class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Node class="w-28 h-28 mx-5 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Express class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <Firebase class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <PostgreSql class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
+                <MySql class="w-28 h-28 mx-8 mb-16 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900"/>
               </div>
             </div>
           </div>
