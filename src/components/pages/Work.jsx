@@ -36,16 +36,16 @@ const Work = () => {
         </h2>
         <h1 class="neon-green mt-8 mb-8 text-3xl ">Projects</h1>
 
-        <div className="projects">
+        <div className="projects flex flex-row flex-wrap">
           {projects.map((project) => (
             <a href={project.url}>
-              <div class="relative">
+              <div class="relative mr-52">
                 <img
                   src={project.image}
                   alt={project.alt}
-                  class="w-72 h-40 absolute left-[80px]"
+                  class="w-80 h-44"
                 ></img>
-                <div class="my-5 bg-orange-300 w-56 h-72 absolute left-[250px] top-[80px]">
+                <div class="my-5 p-5 bg-[#292929] rounded-2xl shadow-xl shadow-gray-900 w-72 h-60 absolute left-[150px] top-[80px]">
                   <h1>{project.name}</h1>
                   <p>
                     Pelt around the house and up and down stairs chasing

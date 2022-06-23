@@ -7,8 +7,8 @@ const HeaderLayout = () => {
   //usestate初期値 0 = index0
   const [selectedPage, setSelectedPage] = useState("home");
   return (
-    <div className="header">
-      <div class="fixed w-full h-[80px] flex flex-row justify-end items-center px-4 bg-[#292929] text-[#a6a6a6]">
+    <div className="header fixed z-[9999]">
+      <div class="fixed w-full h-[80px] flex flex-row  justify-end items-center px-4 bg-[#292929] text-[#a6a6a6]">
         {headerPages.map((headerPage) => (
           <Header
             headerPage={headerPage}
