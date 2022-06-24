@@ -18,15 +18,16 @@ import { ReactComponent as MySql } from "../../assets/mysql.svg";
 import { faDisplay } from "@fortawesome/free-solid-svg-icons";
 
 const Skill = () => {
+  const skillsArray = [JavaScript, ReactLogo, Html];
   return (
     <div
       name="skill"
-      className="max-w-7xl h-screen mx-auto flex flex-col my-20"
+      className="max-w-7xl pb-[15rem] mx-auto flex flex-col my-20"
     >
       <h2 class="text-xl text-[#a6a6a6] text-center">
         &lt;!- - - - - Skills - - - - -&gt;
       </h2>
-      <div class="mt-16 flex flex-row justify-center">
+      <div class="mt-16 flex flex-col md:flex-row justify-center">
 
         <div className="soft-skill flex flex-col mx-20">
           <h1 class="text-2xl neon-green text-center">Soft Skills</h1>
@@ -62,7 +63,7 @@ const Skill = () => {
             <FontAwesomeIcon icon={faDisplay} />
           </div>
           <div className="skill" class="flex flex-wrap justify-center w-60">
-            <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            {/* <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <ReactLogo class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <Html class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <Css class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
@@ -74,7 +75,7 @@ const Skill = () => {
             <Express class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <Firebase class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <PostgreSql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <MySql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <MySql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" /> */}
           </div>
         </div>
       </div>
