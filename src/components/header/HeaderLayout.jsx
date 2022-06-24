@@ -20,7 +20,7 @@ const HeaderLayout = () => {
         ))}
         <div
           className="resume"
-          class="neon-green h-8 items-center text-[#FF5757]"
+          class="neon-green items-center text-[#FF5757]"
         >
           <a href="#">resume</a>
         </div>
