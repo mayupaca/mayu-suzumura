@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Header from "./Header";
-import "../../style/neon.css"
+import "../../style/neon.css";
 
 const HeaderLayout = () => {
-  const headerPages = ["home", "about", "work", "skill", "contact"];
+  const headerPages = ["home", "about", "skill", "work", "contact"];
   //usestate初期値 0 = index0
   const [selectedPage, setSelectedPage] = useState("home");
   return (
@@ -20,16 +20,11 @@ const HeaderLayout = () => {
         ))}
         <div
           className="resume"
-          class="neon-green h-8 text-center text-[#FF5757]"
+          class="neon-green h-8 items-center text-[#FF5757]"
         >
-          <a
-            href="https://drive.google.com/file/d/114evEJ_JhptvgWkq5vlRsa76ry_yElOW/view?usp=sharing"
-            class="block"
-          >
-            resume
-          </a>
+          <a href="#">resume</a>
         </div>
-        </div>
+      </div>
     </div>
   );
 };

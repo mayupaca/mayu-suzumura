@@ -10,8 +10,8 @@ const PageLayout = () => {
     <div>
       <Home />
       <About />
-      <Work />
       <Skill />
+      <Work />
       <Contact />
     </div>
   );
