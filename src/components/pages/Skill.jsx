@@ -2,6 +2,7 @@ import React from "react";
 import "../../style/neon.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHandshake } from "@fortawesome/free-regular-svg-icons";
+import { faDisplay } from "@fortawesome/free-solid-svg-icons";
 import { ReactComponent as JavaScript } from "../../assets/javascript.svg";
 import { ReactComponent as ReactLogo } from "../../assets/react.svg";
 import { ReactComponent as Html } from "../../assets/html-5.svg";
@@ -15,55 +16,57 @@ import { ReactComponent as Express } from "../../assets/express.svg";
 import { ReactComponent as Firebase } from "../../assets/firebase.svg";
 import { ReactComponent as PostgreSql } from "../../assets/postgresql.svg";
 import { ReactComponent as MySql } from "../../assets/mysql.svg";
-import { faDisplay } from "@fortawesome/free-solid-svg-icons";
 
 const Skill = () => {
-  const skillsArray = [JavaScript, ReactLogo, Html];
+  // const skillsArray = [];
   return (
     <div
       name="skill"
-      className="max-w-7xl pb-[15rem] mx-auto flex flex-col my-20"
+      className="max-w-7xl pb-[15rem] mx-auto flex flex-col my-20 w-[60%] bg-slate-200 rounded-3xl"
     >
-      <h2 class="text-xl text-[#a6a6a6] text-center">
-        &lt;!- - - - - Skills - - - - -&gt;
-      </h2>
       <div class="mt-16 flex flex-col md:flex-row justify-center">
 
-        <div className="soft-skill flex flex-col mx-20">
-          <h1 class="text-2xl neon-green text-center">Soft Skills</h1>
-          <div class="my-5 text-[#6331ED] text-3xl text-center">
+        <div className="soft-skill flex flex-col mx-20 z-10">
+          <h1 class="text-2xl neon-green text-center z-10">Soft Skills</h1>
+          <div class="my-5 text-[#6331ED] text-3xl text-center z-10">
             <FontAwesomeIcon icon={faHandshake} />
           </div>
           <div className="skill" class="flex flex-col text-center w-60">
             <div class="text-lg m-2 ">
-              <p>Compassion</p>
+              <p class="underline decoration-[#FF5757] text-[#36393e]">Compassion</p>
             </div>
             <div class="text-lg m-2">
-              <p>Time management</p>
+              <p class="underline decoration-[#FF5757] text-[#36393e]">Time management</p>
             </div>
             <div class="text-lg m-2">
-              <p>Communication</p>
+              <p class="underline decoration-[#FF5757] text-[#36393e]">Communication</p>
             </div>
 
             <div class="text-lg m-2">
-              <p>Teamwork</p>
+              <p class="underline decoration-[#FF5757] text-[#36393e]">Teamwork</p>
             </div>
             <div class="text-lg m-2">
-              <p>Flexibility</p>
+              <p class="underline decoration-[#FF5757] text-[#36393e]">Flexibility</p>
             </div>
             <div class="text-lg m-2">
-              <p>Responsibility</p>
+              <p class="underline decoration-[#FF5757] text-[#36393e]">Responsibility</p>
             </div>
           </div>
         </div>
 
         <div className="hard-skill flex flex-col mx-20">
-          <h1 class="text-2xl neon-green text-center">Hard Skills</h1>
-          <div class="my-5 text-[#6331ED] text-3xl text-center">
+          <h1 class="text-2xl neon-green text-center z-10">Hard Skills</h1>
+          <div class="my-5 text-[#6331ED] text-3xl text-center z-10">
             <FontAwesomeIcon icon={faDisplay} />
           </div>
-          <div className="skill" class="flex flex-wrap justify-center w-60">
-            {/* <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+          <div className="skill" class="flex flex-wrap justify-center w-60 z-10">
+            {/* {skillsArray.map((skill) => (
+              <div>{skill}</div>
+            ))} */}
+
+
+
+            <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <ReactLogo class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <Html class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <Css class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
@@ -75,7 +78,7 @@ const Skill = () => {
             <Express class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <Firebase class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <PostgreSql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <MySql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" /> */}
+            <MySql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
           </div>
         </div>
       </div>
