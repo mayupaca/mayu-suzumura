@@ -11,11 +11,15 @@ const Home = () => {
             <div className="greeting" class="text-7xl">
               <h1 class="mb-3 flex justify-end">Hello World!</h1>
               <h1 class="mb-3 flex justify-end">
-                <span class="neon-green text-[#BBED2F]">I&nbsp;</span> am&nbsp;
+                <span class="neon-green text-[#BBED2F]">I&nbsp;</span>am&nbsp;
               </h1>
               <h1 class="mb-3 flex justify-end neon-green text-[#BBED2F]">
                 Mayu Suzumura.
               </h1>
+            </div>
+            <div className="intro" class="text-5xl mt-5">
+              <h2 class="mb-3 flex justify-end">I am from <span class="neon-red">Japan</span>.</h2>
+              <h2 class="mb-3 flex justify-end"><span class="neon-red">Coding</span>&nbsp;is my life.</h2>
             </div>
           </div>
           <img
