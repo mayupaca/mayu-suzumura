@@ -20,6 +20,10 @@ const About = () => {
             for prance along on top of the garden fence, annoy the neighbor's
             dog and make it bark ooooh feather moving feather! flex claws on the
             human's belly and purr like a lawnmower. Walk on keyboard. 
+            Pelt around the house and up and down stairs chasing phantoms purr
+            for prance along on top of the garden fence, annoy the neighbor's
+            dog and make it bark ooooh feather moving feather! flex claws on the
+            human's belly and purr like a lawnmower. Walk on keyboard. 
           </p>
         </div>
       </div>

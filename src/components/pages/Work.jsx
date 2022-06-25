@@ -27,10 +27,7 @@ const Work = () => {
   ];
 
   return (
-    <div name="work" class="max-w-7xl h-screen mx-auto my-20">
-      <h2 class="text-xl text-[#a6a6a6]">
-        &lt;!- - - - - <span class="text-[#BBED2F]">My</span> Work - - - - -&gt;
-      </h2>
+    <div name="work" class="max-w-7xl h-screen mx-auto my-50">
       <h1 class="neon-green mt-8 mb-8 text-3xl ">Projects</h1>
 
       <div className="projects flex flex-row flex-wrap">
