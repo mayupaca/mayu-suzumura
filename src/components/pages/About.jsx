@@ -7,13 +7,13 @@ const About = () => {
       <div>
         <img
           src={bgImage}
-          alt="image"
+          alt="codePic"
           class="w-full h-[40rem] object-cover opacity-40 absolute"
         ></img>
 
         <div class="max-w-5xl mx-auto flex flex-col justify-center pt-20">
           <h1 class="my-8 text-4xl flex justify-center z-10">
-            <p class="neon-yellow">Nice to Meet You&nbsp;:)</p>
+            <p class="neon-green">Nice to Meet You&nbsp;:)</p>
           </h1>
           <p class="flex justify-center z-10 pb-20">
             Pelt around the house and up and down stairs chasing phantoms purr
