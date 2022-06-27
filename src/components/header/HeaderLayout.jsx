@@ -15,7 +15,7 @@ const HeaderLayout = () => {
   };
 
   return (
-    <div className="flex justify-end items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className="fixed right-0 flex items-center h-24 px-4 text-white bg-[#292929]">
       <ul className="hidden md:flex">
         {headerPages.map((headerPage) => (
           <Header
@@ -39,7 +39,7 @@ const HeaderLayout = () => {
       <ul
         className={
           hamburger
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-500 bg-[#6c6f6c] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-500 bg-[#6c6f6c] ease-in-out duration-500"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
