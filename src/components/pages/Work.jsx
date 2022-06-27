@@ -24,10 +24,31 @@ const Work = () => {
         "https://github.com/mayupaca/scheduler/blob/master/docs/Schedule_top.png?raw=true",
       alt: "scheduler",
     },
+    {
+      name: "tweeter",
+      url: "https://github.com/mayupaca/tweeter",
+      image:
+        "https://github.com/mayupaca/Tweeter-Project/blob/master/docs/tweeter1.png?raw=true",
+      alt: "tweeter",
+    },
+    {
+      name: "tinyapp",
+      url: "https://github.com/mayupaca/tinyapp",
+      image:
+        "https://github.com/mayupaca/tinyapp/blob/master/docs/create_account.png?raw=true",
+      alt: "tinyapp",
+    },
+    {
+      name: "scheduler",
+      url: "https://github.com/mayupaca/scheduler",
+      image:
+        "https://github.com/mayupaca/scheduler/blob/master/docs/Schedule_top.png?raw=true",
+      alt: "scheduler",
+    },
   ];
 
   return (
-    <div name="work" class="max-w-7xl h-screen mx-auto my-50">
+    <div name="work" class="w-[50%] h-screen mx-auto my-50">
       <h1 class="neon-green mt-8 mb-8 text-3xl ">Projects</h1>
 
       <div className="projects flex flex-row flex-wrap">

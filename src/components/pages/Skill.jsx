@@ -22,11 +22,10 @@ const Skill = () => {
   return (
     <div
       name="skill"
-      className="max-w-7xl pb-[15rem] mx-auto flex flex-col my-32 w-[80%] md:w-[60%] bg-slate-200 rounded-3xl"
+      className="py-[15rem] mx-auto flex flex-col my-28 w-[80%] md:w-[700px]"
     >
-      <div class="mt-16 flex flex-col md:flex-row justify-center relative z-10">
-
-        <div className="soft-skill flex flex-col mx-20">
+      <div class="py-16 flex flex-col md:flex-row bg-slate-200 rounded-3xl relative z-10">
+        <div className="soft-skill flex flex-col mx-16">
           <h1 class="text-2xl neon-green text-center">Soft Skills</h1>
           <div class="my-5 text-[#6331ED] text-3xl text-center">
             <FontAwesomeIcon icon={faHandshake} />
@@ -54,8 +53,8 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="hard-skill flex flex-col mx-20">
-          <h1 class="text-2xl neon-green text-center z-10">Hard Skills</h1>
+        <div className="hard-skill flex flex-col mx-16 mt-10 md:mt-0">
+          <h1 class="text-2xl neon-green text-center z-10 ">Hard Skills</h1>
           <div class="my-5 text-[#6331ED] text-3xl text-center">
             <FontAwesomeIcon icon={faDisplay} />
           </div>
@@ -63,9 +62,6 @@ const Skill = () => {
             {/* {skillsArray.map((skill) => (
               <div>{skill}</div>
             ))} */}
-
-
-
             <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <ReactLogo class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <Html class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
