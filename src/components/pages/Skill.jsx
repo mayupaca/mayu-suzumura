@@ -22,7 +22,7 @@ const Skill = () => {
   return (
     <div
       name="skill"
-      className="py-[10rem] mx-auto flex flex-col mt-28 w-[90%] md:w-[700px]"
+      className="pt-[10rem] mx-auto flex flex-col mt-28 w-[90%] md:w-[700px]"
     >
       <div class="py-16 flex flex-col md:flex-row bg-slate-200 rounded-3xl relative z-10">
         <div className="soft-skill flex flex-col mx-10 md:mx-16">

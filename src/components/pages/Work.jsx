@@ -48,13 +48,13 @@ const Work = () => {
   ];
 
   return (
-    <div name="work" class="w-[95%] md:w-[70%] mx-auto flex flex-col justify-center pt-20 pb-60">
-      <h1 class="neon-green mt-8 mb-8 text-3xl ">Projects</h1>
+    <div name="work" class="w-[95%] md:w-[70%] mx-auto flex flex-col justify-center pt-10 pb-10">
+      <h1 class="neon-green my-5 text-3xl ">Projects</h1>
 
       <div className="projects flex flex-row flex-wrap">
         {projects.map((project) => (
           <a href={project.url}>
-            <div class="relative m-5">
+            <div class="relative m-3">
               <img
                 src={project.image}
                 alt={project.alt}
