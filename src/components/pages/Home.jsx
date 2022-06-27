@@ -4,22 +4,22 @@ import profilePic from "../../images/mayu_raccoon.JPG";
 
 const Home = () => {
   return (
-    <div name="home" class="w-full h-screen">
-      <div class="max-w-7xl m-auto flex flex-col justify-center h-full">
-        <div class="justify-between relative">
+    <div name="home" class="w-full h-full md:h-screen">
+      <div class="w-[60%] m-auto flex flex-col justify-center">
+        <div class="justify-between relative mt-72">
           <div class="md:absolute top-48 left-96 z-10">
-            <div className="greeting" class="text-center text-4xl md:text-7xl">
-              <h1 class="mb-3 md:flex justify-end">Hello World!</h1>
+            <div className="greeting" class="text-center text-3xl md:text-7xl">
+              <h1 class="mb-3 md:flex justify-center">Hello World!</h1>
               <h1 class="mb-3 md:flex justify-end">
                 <span class="neon-yellow">I&nbsp;</span>am&nbsp;
               </h1>
-              <h1 class="mb-3 inline md:flex justify-end">
+              <h1 class="mb-3 inline md:flex justify-center">
                 <span class="neon-yellow">Mayu&nbsp;Suzumura</span>.
               </h1>
             </div>
             <div
               className="intro"
-              class="text-center text-3xl md:text-5xl md:flex justify-end mt-5 "
+              class="text-center text-2xl md:text-5xl md:flex justify-end mt-5 "
             >
               <h2 class="mb-3 inline md:justify-end">
                 I am from<span class="neon-red">&nbsp;Japan</span>.
