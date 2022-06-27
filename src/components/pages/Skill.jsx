@@ -22,16 +22,16 @@ const Skill = () => {
   return (
     <div
       name="skill"
-      className="max-w-7xl pb-[15rem] mx-auto flex flex-col my-20 w-[60%] bg-slate-200 rounded-3xl"
+      className="max-w-7xl pb-[15rem] mx-auto flex flex-col my-32 w-[80%] md:w-[60%] bg-slate-200 rounded-3xl"
     >
-      <div class="mt-16 flex flex-col md:flex-row justify-center">
+      <div class="mt-16 flex flex-col md:flex-row justify-center relative z-10">
 
-        <div className="soft-skill flex flex-col mx-20 z-10">
-          <h1 class="text-2xl neon-green text-center z-10">Soft Skills</h1>
-          <div class="my-5 text-[#6331ED] text-3xl text-center z-10">
+        <div className="soft-skill flex flex-col mx-20">
+          <h1 class="text-2xl neon-green text-center">Soft Skills</h1>
+          <div class="my-5 text-[#6331ED] text-3xl text-center">
             <FontAwesomeIcon icon={faHandshake} />
           </div>
-          <div className="skill" class="flex flex-col text-center w-60">
+          <div className="skill" class="flex flex-col text-center">
             <div class="text-lg m-2 ">
               <p class="underline decoration-[#FF5757] text-[#36393e]">Compassion</p>
             </div>
@@ -56,10 +56,10 @@ const Skill = () => {
 
         <div className="hard-skill flex flex-col mx-20">
           <h1 class="text-2xl neon-green text-center z-10">Hard Skills</h1>
-          <div class="my-5 text-[#6331ED] text-3xl text-center z-10">
+          <div class="my-5 text-[#6331ED] text-3xl text-center">
             <FontAwesomeIcon icon={faDisplay} />
           </div>
-          <div className="skill" class="flex flex-wrap justify-center w-60 z-10">
+          <div className="skill" class="flex flex-wrap justify-center">
             {/* {skillsArray.map((skill) => (
               <div>{skill}</div>
             ))} */}
