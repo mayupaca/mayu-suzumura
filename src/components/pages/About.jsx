@@ -3,7 +3,7 @@ import bgImage from "../../images/code_pic.jpg";
 
 const About = () => {
   return (
-    <div class="w-full h-96 relative">
+    <div name="about" class="w-full h-96 relative">
       <div>
         <img
           src={bgImage}

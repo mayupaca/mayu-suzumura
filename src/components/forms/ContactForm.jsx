@@ -25,7 +25,7 @@ const ContactForm = () => {
       );
   };
   return (
-    <div class="w-[400px]">
+    <div class="w-[300px]">
       <form ref={form} onSubmit={sendEmail} class="flex flex-col">
         <label>Name</label>
         <input type="text" name="user_name" class="border-none text-stone-900" />
