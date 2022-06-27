@@ -19,7 +19,6 @@ const Home = () => {
             </div>
             <div className="intro" class="text-5xl mt-5">
               <h2 class="mb-3 flex justify-end">I am from<span class="neon-red">&nbsp;Japan</span>.</h2>
-              <h2 class="mb-3 flex justify-end"><span class="neon-red">Coding</span>&nbsp;is my life.</h2>
             </div>
           </div>
           <img
