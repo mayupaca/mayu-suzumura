@@ -25,7 +25,7 @@ const Skill = () => {
       className="py-[10rem] mx-auto flex flex-col mt-28 w-[90%] md:w-[700px]"
     >
       <div class="py-16 flex flex-col md:flex-row bg-slate-200 rounded-3xl relative z-10">
-        <div className="soft-skill flex flex-col mx-16">
+        <div className="soft-skill flex flex-col mx-10 md:mx-16">
           <h1 class="text-2xl neon-green text-center">Soft Skills</h1>
           <div class="my-5 text-[#6331ED] text-3xl text-center">
             <FontAwesomeIcon icon={faHandshake} />
@@ -53,7 +53,7 @@ const Skill = () => {
           </div>
         </div>
 
-        <div className="hard-skill flex flex-col mx-16 mt-10 md:mt-0">
+        <div className="hard-skill flex flex-col mx-5 md:mx-16 mt-10 md:mt-0">
           <h1 class="text-2xl neon-green text-center z-10 ">Hard Skills</h1>
           <div class="my-5 text-[#6331ED] text-3xl text-center">
             <FontAwesomeIcon icon={faDisplay} />
@@ -62,18 +62,18 @@ const Skill = () => {
             {/* {skillsArray.map((skill) => (
               <div>{skill}</div>
             ))} */}
-            <JavaScript class="w-[60px] h-[60px] m-1 md:m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <ReactLogo class="w-[60px] h-[60px] m-1 md:m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Html class="w-[60px] h-[60px] m-1 md:m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Css class="w-[60px] h-[60px] m-1 md:m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Sass class="w-[60px] h-[60px] m-1 md:m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Bootstrap class="w-[60px] h-[60px] m-1 md:m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Tailwind class="w-[60px] h-[60px] m-1 md:m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <MaterialUi class="w-[60px] h-[60px] m-1 md:m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Node class="w-[60px] h-[60px] m-1 md:m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Express class="w-[60px] h-[60px] m-1 md:m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Firebase class="w-[60px] h-[60px] m-1 md:m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <PostgreSql class="w-[60px] h-[60px] m-1 md:m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <ReactLogo class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Html class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Css class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Sass class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Bootstrap class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Tailwind class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <MaterialUi class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Node class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Express class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <Firebase class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
+            <PostgreSql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
             <MySql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
           </div>
         </div>

@@ -48,7 +48,7 @@ const Work = () => {
   ];
 
   return (
-    <div name="work" class="w-[90%] md:w-[70%] mx-auto flex flex-col justify-center pt-20 pb-60">
+    <div name="work" class="w-[95%] md:w-[70%] mx-auto flex flex-col justify-center pt-20 pb-60">
       <h1 class="neon-green mt-8 mb-8 text-3xl ">Projects</h1>
 
       <div className="projects flex flex-row flex-wrap">
