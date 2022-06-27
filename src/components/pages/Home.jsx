@@ -9,7 +9,7 @@ const Home = () => {
         <div class="justify-between relative mt-72">
           <div class="md:absolute top-48 left-96 z-10">
             <div className="greeting" class="text-center text-3xl md:text-7xl">
-              <h1 class="mb-3 md:flex justify-center">Hello World!</h1>
+              <h1 class="mb-3 md:flex justify-end">Hello World!</h1>
               <h1 class="mb-3 md:flex justify-end">
                 <span class="neon-yellow">I&nbsp;</span>am&nbsp;
               </h1>
