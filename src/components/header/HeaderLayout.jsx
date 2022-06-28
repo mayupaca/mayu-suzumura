@@ -60,7 +60,6 @@ const HeaderLayout = () => {
         </div>
       </ul>
     </div>
-    
   );
 };
 

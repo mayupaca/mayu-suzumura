@@ -17,7 +17,7 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("Message sent:)")
+          console.log("Message sent:)");
         },
         (error) => {
           console.log(error.text);
@@ -28,12 +28,20 @@ const ContactForm = () => {
     <div class="md:w-[300px]">
       <form ref={form} onSubmit={sendEmail} class="flex flex-col">
         <label class="text-sm md:text-md">Name</label>
-        <input type="text" name="user_name" class="border-none text-stone-900" />
+        <input
+          type="text"
+          name="user_name"
+          class="border-none text-stone-900"
+        />
         <label class="text-sm md:text-md">Email</label>
-        <input type="email" name="user_email" class="border-none text-stone-900" />
+        <input
+          type="email"
+          name="user_email"
+          class="border-none text-stone-900"
+        />
         <label class="text-sm md:text-md">Message</label>
-        <textarea name="message" class="border-none text-stone-900"/>
-        <input type="submit" value="Send" class="text-right pointer"/>
+        <textarea name="message" class="border-none text-stone-900" />
+        <input type="submit" value="Send" class="text-right pointer" />
       </form>
     </div>
   );

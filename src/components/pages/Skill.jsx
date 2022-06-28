@@ -16,65 +16,75 @@ import { ReactComponent as Express } from "../../assets/express.svg";
 import { ReactComponent as Firebase } from "../../assets/firebase.svg";
 import { ReactComponent as PostgreSql } from "../../assets/postgresql.svg";
 import { ReactComponent as MySql } from "../../assets/mysql.svg";
+import { ReactComponent as Typescript } from "../../assets/typescript-icon.svg";
+import { ReactComponent as Figma } from "../../assets/figma.svg";
+import { ReactComponent as Github } from "../../assets/github-icon.svg";
+import { ReactComponent as Git } from "../../assets/git-icon.svg";
 
 const Skill = () => {
   // const skillsArray = [];
   return (
     <div
       name="skill"
-      className="pt-[10rem] mx-auto flex flex-col mt-28 w-[90%] md:w-[700px]"
+      className="pt-[10rem] md:pb-10 mx-auto flex flex-col mt-28 w-[90%] md:w-[40%]"
     >
-      <div class="py-16 flex flex-col md:flex-row bg-slate-200 rounded-3xl relative z-10">
-        <div className="soft-skill flex flex-col mx-10 md:mx-16">
-          <h1 class="text-2xl neon-green text-center">Soft Skills</h1>
-          <div class="my-5 text-[#6331ED] text-3xl text-center">
-            <FontAwesomeIcon icon={faHandshake} />
-          </div>
-          <div className="skill" class="flex flex-col text-center">
-            <div class="text-lg m-2 ">
-              <p class="underline decoration-[#FF5757] text-[#36393e]">Compassion</p>
+      <div class="py-5 md:py-10 pb-5 flex flex-col justify-center md:flex-row bg-slate-200 rounded-3xl relative z-10">
+        <div class="">
+          <h1 class="md:mb-10 text-3xl flex justify-center underline decoration-red-500 text-slate-500">Skills</h1>
+          <div class="flex flex-col justify-center md:flex-row">
+            <div>
+              <div className="language flex flex-col mx-5 md:mx-24 mt-10 md:mt-0">
+                <h1 class="text-2xl neon-red text-center z-10">Frontend</h1>
+                <div class="my-5 text-[#6331ED] text-3xl text-center">
+                  <FontAwesomeIcon icon={faDisplay} />
+                </div>
+                <div className="skill" class="flex flex-wrap justify-center">
+                  <ReactLogo class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Sass class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Bootstrap class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Tailwind class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <MaterialUi class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                </div>
+              </div>
+              <div className="frontend flex flex-col mx-5 md:mx-24 mt-10 md:mt-16">
+                <h1 class="text-2xl neon-red text-center z-10">Languages</h1>
+                <div class="my-5 text-[#6331ED] text-3xl text-center">
+                  <FontAwesomeIcon icon={faDisplay} />
+                </div>
+                <div className="skill" class="flex flex-wrap justify-center">
+                  <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Html class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Css class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Typescript class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                </div>
+              </div>
             </div>
-            <div class="text-lg m-2">
-              <p class="underline decoration-[#FF5757] text-[#36393e]">Time management</p>
+            <div>
+              <div className="backend flex flex-col mx-5 md:mx-24 mt-10 md:mt-0">
+                <h1 class="text-2xl neon-red text-center z-10">Backend & DB</h1>
+                <div class="my-5 text-[#6331ED] text-3xl text-center">
+                  <FontAwesomeIcon icon={faDisplay} />
+                </div>
+                <div className="skill" class="flex flex-wrap justify-center">
+                  <Node class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Express class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Firebase class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <PostgreSql class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <MySql class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                </div>
+              </div>
+              <div className="tools flex flex-col mx-5 md:mx-24 mt-10 md:mt-16">
+                <h1 class="text-2xl neon-red text-center z-10">Tools</h1>
+                <div class="my-5 text-[#6331ED] text-3xl text-center">
+                  <FontAwesomeIcon icon={faDisplay} />
+                </div>
+                <div className="skill" class="flex flex-wrap justify-center">
+                  <Figma class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Git class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                  <Github class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
+                </div>
+              </div>
             </div>
-            <div class="text-lg m-2">
-              <p class="underline decoration-[#FF5757] text-[#36393e]">Communication</p>
-            </div>
-
-            <div class="text-lg m-2">
-              <p class="underline decoration-[#FF5757] text-[#36393e]">Teamwork</p>
-            </div>
-            <div class="text-lg m-2">
-              <p class="underline decoration-[#FF5757] text-[#36393e]">Flexibility</p>
-            </div>
-            <div class="text-lg m-2">
-              <p class="underline decoration-[#FF5757] text-[#36393e]">Responsibility</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="hard-skill flex flex-col mx-5 md:mx-16 mt-10 md:mt-0">
-          <h1 class="text-2xl neon-green text-center z-10 ">Hard Skills</h1>
-          <div class="my-5 text-[#6331ED] text-3xl text-center">
-            <FontAwesomeIcon icon={faDisplay} />
-          </div>
-          <div className="skill" class="flex flex-wrap justify-center">
-            {/* {skillsArray.map((skill) => (
-              <div>{skill}</div>
-            ))} */}
-            <JavaScript class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <ReactLogo class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Html class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Css class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Sass class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Bootstrap class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Tailwind class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <MaterialUi class="w-[60px] h-[60px] m-2  p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Node class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Express class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <Firebase class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <PostgreSql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
-            <MySql class="w-[60px] h-[60px] m-2 p-3 bg-[#36393e] rounded-2xl shadow-xl shadow-gray-900" />
           </div>
         </div>
       </div>

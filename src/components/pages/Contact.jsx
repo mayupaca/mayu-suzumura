@@ -24,7 +24,9 @@ const Contact = () => {
                 <p class="flex justify-start text-md md:text-lg">
                   email: mayusuzumura55@gmail.com
                 </p>
-                <p class="flex justify-start text-md md:text-lg">Phone: +1 416-389-5592</p>
+                <p class="flex justify-start text-md md:text-lg">
+                  Phone: +1 416-389-5592
+                </p>
               </div>
               <div>
                 <p class="mt-10 mb-3">Social media</p>
