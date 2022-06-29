@@ -29,11 +29,11 @@ const Work = () => {
   return (
     <div
       name="work"
-      class="w-[95%] md:w-[55%] mx-auto flex flex-col justify-center my-10 md:my-32"
+      class="w-[95%] lg:w-[55%] mx-auto flex flex-col justify-center my-10 lg:my-32"
     >
       <h1 class="neon-green my-5 text-3xl ">Projects</h1>
 
-      <div className="projects flex flex-row flex-wrap md:justify-evenly">
+      <div className="projects flex flex-row flex-wrap lg:justify-evenly">
         {projects.map((project) => (
           <a href={project.url}>
             <div class="relative">

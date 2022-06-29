@@ -11,8 +11,8 @@ const About = () => {
           class="w-full h-[50rem] object-cover opacity-40 absolute"
         ></img>
 
-        <div class="w-[90%] md:w-[40%] mx-auto flex flex-col justify-center pt-20">
-          <h1 class="my-8 text-3xl md:text-4xl flex justify-center z-10">
+        <div class="w-[90%] lg:w-[40%] mx-auto flex flex-col justify-center pt-20">
+          <h1 class="my-8 text-3xl lg:text-4xl flex justify-center z-10">
             <p class="neon-green">Nice to Meet You&nbsp;:)</p>
           </h1>
           <p class="flex justify-center pb-20 z-10">

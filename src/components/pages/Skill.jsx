@@ -1,7 +1,6 @@
 import React from "react";
 import "../../style/neon.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHandshake } from "@fortawesome/free-regular-svg-icons";
 import { faDisplay } from "@fortawesome/free-solid-svg-icons";
 import { ReactComponent as JavaScript } from "../../assets/javascript.svg";
 import { ReactComponent as ReactLogo } from "../../assets/react.svg";
@@ -26,14 +25,14 @@ const Skill = () => {
   return (
     <div
       name="skill"
-      className="pt-[10rem] md:pb-10 mx-auto flex flex-col mt-28 w-[90%] md:w-[40%]"
+      className="pt-[10rem] lg:pb-10 mx-auto flex flex-col mt-28 w-[90%] lg:w-[40%]"
     >
-      <div class="py-5 md:py-10 pb-5 flex flex-col justify-center md:flex-row bg-slate-200 rounded-3xl relative z-10">
+      <div class="py-5 lg:py-10 pb-5 flex flex-col justify-center lg:flex-row bg-slate-200 rounded-3xl relative z-10">
         <div class="">
-          <h1 class="md:mb-10 text-3xl flex justify-center underline decoration-red-500 text-slate-500">Skills</h1>
-          <div class="flex flex-col justify-center md:flex-row">
+          <h1 class="lg:mb-10 text-3xl flex justify-center underline decoration-red-500 text-slate-500">Skills</h1>
+          <div class="flex flex-col justify-center lg:flex-row">
             <div>
-              <div className="language flex flex-col mx-5 md:mx-24 mt-10 md:mt-0">
+              <div className="language flex flex-col mx-5 lg:mx-24 mt-10 lg:mt-0">
                 <h1 class="text-2xl neon-red text-center z-10">Frontend</h1>
                 <div class="my-5 text-[#6331ED] text-3xl text-center">
                   <FontAwesomeIcon icon={faDisplay} />
@@ -46,7 +45,7 @@ const Skill = () => {
                   <MaterialUi class="w-[60px] h-[60px] m-2  p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
                 </div>
               </div>
-              <div className="frontend flex flex-col mx-5 md:mx-24 mt-10 md:mt-16">
+              <div className="frontend flex flex-col mx-5 lg:mx-24 mt-10 lg:mt-16">
                 <h1 class="text-2xl neon-red text-center z-10">Languages</h1>
                 <div class="my-5 text-[#6331ED] text-3xl text-center">
                   <FontAwesomeIcon icon={faDisplay} />
@@ -60,7 +59,7 @@ const Skill = () => {
               </div>
             </div>
             <div>
-              <div className="backend flex flex-col mx-5 md:mx-24 mt-10 md:mt-0">
+              <div className="backend flex flex-col mx-5 lg:mx-24 mt-10 lg:mt-0">
                 <h1 class="text-2xl neon-red text-center z-10">Backend & DB</h1>
                 <div class="my-5 text-[#6331ED] text-3xl text-center">
                   <FontAwesomeIcon icon={faDisplay} />
@@ -73,7 +72,7 @@ const Skill = () => {
                   <MySql class="w-[60px] h-[60px] m-2 p-3 bg-slate-200 rounded-2xl shadow-xl shadow-slate-500" />
                 </div>
               </div>
-              <div className="tools flex flex-col mx-5 md:mx-24 mt-10 md:mt-16">
+              <div className="tools flex flex-col mx-5 lg:mx-24 mt-10 lg:mt-16">
                 <h1 class="text-2xl neon-red text-center z-10">Tools</h1>
                 <div class="my-5 text-[#6331ED] text-3xl text-center">
                   <FontAwesomeIcon icon={faDisplay} />

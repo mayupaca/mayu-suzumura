@@ -16,7 +16,7 @@ const HeaderLayout = () => {
 
   return (
     <div className="fixed left-[-12] w-[100%] flex items-center justify-end h-24 px-4 text-white bg-[#292929] z-50">
-      <ul className="hidden md:flex">
+      <ul className="hidden lg:flex">
         {headerPages.map((headerPage) => (
           <Header
             headerPage={headerPage}
@@ -33,7 +33,7 @@ const HeaderLayout = () => {
           <a href="#">resume</a>
         </div>
       </ul>
-      <div onClick={handleBurger} className="block md:hidden">
+      <div onClick={handleBurger} className="block lg:hidden">
         {hamburger ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <ul
