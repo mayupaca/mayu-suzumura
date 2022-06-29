@@ -15,7 +15,7 @@ const HeaderLayout = () => {
   };
 
   return (
-    <div className="fixed right-0 flex items-center h-24 px-4 text-white bg-[#292929]">
+    <div className="fixed left-[-12] w-[100%] flex items-center justify-end h-24 px-4 text-white bg-[#292929] z-50">
       <ul className="hidden md:flex">
         {headerPages.map((headerPage) => (
           <Header
