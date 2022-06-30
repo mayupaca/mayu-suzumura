@@ -7,14 +7,14 @@ const Home = () => {
     <div name="home" class="w-full lg:h-screen">
       <div class="w-[95%] lg:w-[60%] pb-20 m-auto flex flex-col justify-center">
         <div class="mt-32 lg:relative">
-          <div class="flex justify-center h-[250px] mt-5 absolute top-20">
+          <div class="flex justify-center mt-5 absolute top-20">
             <img
               src={profilePic}
               alt="me"
-              class="w-[10rem] lg:w-[30rem] h-[13rem] lg:h-[40rem] rounded-full shadow-2xl shadow-green-500/50 opacity-70 "
+              class="w-[10rem] lg:w-[45vh] h-[13rem] lg:h-[60vh] rounded-full shadow-2xl shadow-green-500/50 opacity-70 "
             ></img>
           </div>
-          <div class="relative top-0 left-0 lg:absolute  lg:top-60 lg:left-96">
+          <div class="relative top-10 left-0 lg:absolute  lg:top-[25vh] lg:left-[40vh]">
             <div className="greeting" class="text-4xl lg:text-7xl">
               <h1 class="mb-3 flex justify-end">Hello World!</h1>
               <h1 class="mb-3 flex justify-end">
