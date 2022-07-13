@@ -29,7 +29,7 @@ const Home = () => {
               class="text-3xl lg:text-5xl flex justify-end mt-5 "
             >
               <h2 class="mb-3 inline lg:justify-end">
-                I am from<span class="neon-red">&nbsp;Japan</span>.
+                I am a<span class="neon-red">&nbsp;web developer</span>.
               </h2>
             </div>
           </div>
