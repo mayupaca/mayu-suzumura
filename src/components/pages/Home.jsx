@@ -5,7 +5,7 @@ import profilePic from "../../images/mayu_raccoon.JPG";
 const Home = () => {
   return (
     <div name="home" class="w-full lg:h-screen">
-      <div class="w-[95%] lg:w-[60%] pb-20 m-auto flex flex-col justify-center">
+      <div class="w-[95%] lg:w-[60%] pb-32 m-auto flex flex-col justify-center">
         <div class="mt-32 lg:relative">
           <div class="flex justify-center mt-5 absolute top-20">
             <img

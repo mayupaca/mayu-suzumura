@@ -15,7 +15,7 @@ const HeaderLayout = () => {
   };
 
   return (
-    <div className="fixed left-[-12] w-[100%] flex items-center justify-end h-24 px-4 text-white bg-[#292929] z-50">
+    <div className="fixed left-[-12] w-[100%] flex items-center justify-end h-20 lg:h-24 px-4 text-white bg-[#292929] z-50">
       <ul className="hidden lg:flex">
         {headerPages.map((headerPage) => (
           <Header
@@ -30,7 +30,7 @@ const HeaderLayout = () => {
           className="resume"
           class="neon-green items-center text-[#FF5757] mr-10"
         >
-          <a href="#">resume</a>
+          <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">resume</a>
         </div>
       </ul>
       <div onClick={handleBurger} className="block lg:hidden">
@@ -56,7 +56,7 @@ const HeaderLayout = () => {
           className="resume"
           class="neon-green items-center text-[#FF5757] p-5"
         >
-          <a href="#">resume</a>
+          <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">resume</a>
         </div>
       </ul>
     </div>

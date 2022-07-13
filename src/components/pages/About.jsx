@@ -11,19 +11,23 @@ const About = () => {
           class="w-full h-[50rem] object-cover opacity-40 absolute"
         ></img>
 
-        <div class="w-[90%] lg:w-[40%] mx-auto flex flex-col justify-center pt-20">
+        <div class="w-[90%] lg:w-[30%] mx-auto flex flex-col justify-center pt-20">
           <h1 class="my-8 text-3xl lg:text-4xl flex justify-center z-10">
             <p class="neon-green">Nice to Meet You&nbsp;:)</p>
           </h1>
-          <p class="flex justify-center pb-20 z-10">
-            Pelt around the house and up and down stairs chasing phantoms purr
-            for prance along on top of the garden fence, annoy the neighbor's
-            dog and make it bark ooooh feather moving feather! flex claws on the
-            human's belly and purr like a lawnmower. Walk on keyboard. Pelt
-            around the house and up and down stairs chasing phantoms purr for
-            prance along on top of the garden fence, annoy the neighbor's dog
-            and make it bark ooooh feather moving feather! flex claws on the
-            human's belly and purr like a lawnmower. Walk on keyboard.
+          <p class="flex justify-center text-center z-10 text-lg lg:text-xl ">
+            Hello everyone!
+            <br />
+            I am Mayu. Welcome to my portfolio. I am an entry-level full-stack
+            web developer from Japan based in Toronto, Canada.
+            <br />
+            I used to teach Japanese all over the world and became a programmer.
+            I am a curious person with a serious passion for building web
+            appreciation that would help the communities.
+            <br />
+            Other than coding, I spend most of my free time with my sweet cat.
+            (He is sooo adorable!!) I have also been trying to study more
+            technologies. Currently, web3.0 and blockchain that I am into.
           </p>
         </div>
       </div>
