@@ -25,7 +25,7 @@ const Skill = () => {
   return (
     <div
       name="skill"
-      className="pt-[10rem] lg:pt-[5rem] lg:pb-10 mx-auto flex flex-col mt-28 w-[90%] lg:w-[50%]"
+      className="pt-[12rem] lg:pt-[5rem] lg:pb-10 mx-auto flex flex-col mt-28 w-[90%] lg:w-[50%]"
     >
       <div class="py-5 lg:py-10 pb-5 flex flex-col justify-center lg:flex-row bg-slate-200 rounded-3xl relative z-10">
         <div class="">
