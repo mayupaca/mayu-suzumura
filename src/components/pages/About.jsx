@@ -16,17 +16,17 @@ const About = () => {
             <p class="neon-green">Nice to Meet You&nbsp;:)</p>
           </h1>
           <p class="flex justify-center text-center z-10 text-lg lg:text-xl ">
-            Hello everyone!
+            Hello!
             <br />
             I am Mayu. Welcome to my portfolio. I am an entry-level full-stack
-            web developer from Japan based in Toronto, Canada.
+            web developer based in Toronto, Canada but originally from Japan.
             <br />
-            I used to teach Japanese all over the world and became a programmer.
+            I used to teach Japanese to my students from all over the world and became a programmer.
             I am a curious person with a serious passion for building web
             appreciation that would help the communities.
             <br />
-            Other than coding, I spend most of my free time with my sweet cat.
-            (He is sooo adorable!!) I have also been trying to study more
+            Other than coding, I spend most of my free time with my sweet cat
+            (He is sooo adorable!!). I have also been trying to study more
             technologies. Currently, web3.0 and blockchain that I am into.
           </p>
         </div>

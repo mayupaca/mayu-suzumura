@@ -1,8 +1,15 @@
 import React from "react";
 import "../../style/neon.css";
+import mayuFolio from "../../images/home.jpg"
 
 const Work = () => {
   const projects = [
+    {
+      name: "MayuFolio",
+      url: "https://github.com/mayupaca/mayu-suzumura",
+      image: mayuFolio,
+      alt: "MayuFolio",
+    },
     {
       name: "tweeter",
       url: "https://github.com/mayupaca/tweeter",
