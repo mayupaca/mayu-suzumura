@@ -5,11 +5,12 @@ import ContactForm from "../forms/ContactForm";
 // import bgImage2 from "../../images/code_pic2.jpg";
 
 const Contact = () => {
+  const PUBLIC_URL = process.env.PUBLIC_URL;
   return (
     <div className="contact w-full h-96 relative">
       <div>
         <img
-          src='../../../public/images/code_pic2.jpg'
+          src={`${PUBLIC_URL}images/code_pic2.jpg`}
           alt="codePic"
           className="w-full h-[50rem] object-cover opacity-40 absolute"
         ></img>

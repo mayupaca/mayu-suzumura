@@ -2,11 +2,13 @@ import React from "react";
 // import bgImage from "../../images/code_pic.jpg";
 
 const About = () => {
+  const PUBLIC_URL = process.env.PUBLIC_URL;
+
   return (
     <div className="about w-full h-96 relative">
       <div>
         <img
-          src="../../../public/images/code_pic.jpg"
+          src={`${PUBLIC_URL}images/code_pic.jpg`}
           alt="codePic"
           className="w-full h-[50rem] object-cover opacity-40 absolute"
         ></img>

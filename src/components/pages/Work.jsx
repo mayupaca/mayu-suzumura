@@ -3,11 +3,13 @@ import "../../style/neon.css";
 // import mayuFolio from "../../images/projectImages/mayufolio.jpg"
 
 const Work = () => {
+  const PUBLIC_URL = process.env.PUBLIC_URL;
+
   const projects = [
     {
       name: "MayuFolio",
       url: "https://github.com/mayupaca/mayu-suzumura",
-      image: "../../../public/images/projectImages/mayufolio.jpg",
+      image: PUBLIC_URL + 'images/projectImages/mayufolio.jpg',
       alt: "MayuFolio",
     },
     {

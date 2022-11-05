@@ -28,7 +28,7 @@ const HeaderLayout = () => {
           </Header>
         ))}
         <div className="resume neon-green items-center text-[#FF5757] mr-10">
-          <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">
+          <a href="#">
             resume
           </a>
         </div>
