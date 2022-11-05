@@ -22,18 +22,18 @@ const HeaderLayout = () => {
             headerPage={headerPage}
             setSelectedPage={setSelectedPage}
             selectedPage={selectedPage}
+            key={headerPage}
           >
             {headerPage}
           </Header>
         ))}
-        <div
-          className="resume"
-          class="neon-green items-center text-[#FF5757] mr-10"
-        >
-          <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">resume</a>
+        <div className="resume neon-green items-center text-[#FF5757] mr-10">
+          <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">
+            resume
+          </a>
         </div>
       </ul>
-      <div onClick={handleBurger} className="block lg:hidden">
+      <div className="block lg:hidden" onClick={handleBurger} >
         {hamburger ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <ul
@@ -48,15 +48,15 @@ const HeaderLayout = () => {
             headerPage={headerPage}
             setSelectedPage={setSelectedPage}
             selectedPage={selectedPage}
+            key={headerPage}
           >
             {headerPage}
           </HamburgerHeader>
         ))}
-        <div
-          className="resume"
-          class="neon-green items-center text-[#FF5757] p-5"
-        >
-          <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">resume</a>
+        <div className="resume neon-green items-center text-[#FF5757] p-5">
+          <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">
+            resume
+          </a>
         </div>
       </ul>
     </div>

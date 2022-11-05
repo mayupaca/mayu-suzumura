@@ -2,41 +2,41 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContactForm from "../forms/ContactForm";
-import bgImage2 from "../../images/code_pic2.jpg";
+// import bgImage2 from "../../images/code_pic2.jpg";
 
 const Contact = () => {
   return (
-    <div name="contact" className="w-full h-96 relative">
+    <div className="contact w-full h-96 relative">
       <div>
         <img
-          src={bgImage2}
+          src='../../../public/images/code_pic2.jpg'
           alt="codePic"
-          class="w-full h-[50rem] object-cover opacity-40 absolute"
+          className="w-full h-[50rem] object-cover opacity-40 absolute"
         ></img>
 
-        <div class="w-[80%] lg:w-[50%] mx-auto pt-20">
-          <h1 class="neon-yellow my-8 text-3xl flex justify-start relative">
+        <div className="w-[80%] lg:w-[50%] mx-auto pt-20">
+          <h1 className="neon-yellow my-8 text-3xl flex justify-start relative">
             Contact
           </h1>
-          <div class="flex flex-col lg:flex-row justify-between relative">
+          <div className="flex flex-col lg:flex-row justify-between relative">
             <div>
-              <div class="flex flex-col">
-                <p class="flex justify-start text-md lg:text-lg">
+              <div className="flex flex-col">
+                <p className="flex justify-start text-md lg:text-lg">
                   email: mayusuzumura55@gmail.com
                 </p>
-                <p class="flex justify-start text-md lg:text-lg">
+                <p className="flex justify-start text-md lg:text-lg">
                   Phone: +1 416-389-5592
                 </p>
               </div>
               <div>
-                <p class="mt-10 mb-3">Social media</p>
+                <p className="mt-10 mb-3">Social media</p>
                 <div className="icon mb-10 lg:mb-0">
-                  <span class="text-[#BBED2F] mr-3">
+                  <span className="text-[#BBED2F] mr-3">
                     <a href="https://www.linkedin.com/in/mayu-suzumura/">
                       <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     </a>
                   </span>
-                  <span class="text-[#BBED2F]">
+                  <span className="text-[#BBED2F]">
                     <a href="https://github.com/mayupaca">
                       <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div class="ml-0 lg:ml-32 lg:flex justify-end">
+            <div className="ml-0 lg:ml-32 lg:flex justify-end">
               <ContactForm />
             </div>
           </div>

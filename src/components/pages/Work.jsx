@@ -1,13 +1,13 @@
 import React from "react";
 import "../../style/neon.css";
-import mayuFolio from "../../images/home.jpg"
+// import mayuFolio from "../../images/projectImages/mayufolio.jpg"
 
 const Work = () => {
   const projects = [
     {
       name: "MayuFolio",
       url: "https://github.com/mayupaca/mayu-suzumura",
-      image: mayuFolio,
+      image: "../../../public/images/projectImages/mayufolio.jpg",
       alt: "MayuFolio",
     },
     {
@@ -34,23 +34,22 @@ const Work = () => {
   ];
 
   return (
-    <div
-      name="work"
-      class="w-[95%] lg:w-[55%] mx-auto flex flex-col justify-center my-10 lg:my-32"
-    >
-      <h1 class="neon-green my-5 text-3xl ">Projects</h1>
+    <div className="work w-[95%] lg:w-[55%] mx-auto flex flex-col justify-center my-10 lg:my-32">
+      <h1 className="neon-green my-5 text-3xl ">Projects</h1>
 
       <div className="projects flex flex-row flex-wrap lg:justify-evenly">
-        {projects.map((project) => (
-          <a href={project.url}>
-            <div class="relative">
-              <img
-                src={project.image}
-                alt={project.alt}
-                class="w-80 h-44 mb-7 rounded-md"
-              ></img>
-            </div>
-          </a>
+        {projects.map((project, index) => (
+          <div key={index}>
+            <a href={project.url}>
+              <div className="relative">
+                <img
+                  src={project.image}
+                  alt={project.alt}
+                  className="w-80 h-44 mb-7 rounded-md"
+                ></img>
+              </div>
+            </a>
+          </div>
         ))}
       </div>
     </div>

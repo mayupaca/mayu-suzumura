@@ -25,23 +25,23 @@ const ContactForm = () => {
       );
   };
   return (
-    <div class="lg:w-[300px]">
-      <form ref={form} onSubmit={sendEmail} class="flex flex-col">
-        <label class="text-sm lg:text-md">Name</label>
+    <div className="lg:w-[300px]">
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col">
+        <label className="text-sm lg:text-md">Name</label>
         <input
           type="text"
           name="user_name"
-          class="border-none text-stone-900"
+          className="border-none text-stone-900"
         />
-        <label class="text-sm lg:text-md">Email</label>
+        <label className="text-sm lg:text-md">Email</label>
         <input
           type="email"
           name="user_email"
-          class="border-none text-stone-900"
+          className="border-none text-stone-900"
         />
-        <label class="text-sm lg:text-md">Message</label>
-        <textarea name="message" class="border-none text-stone-900" />
-        <input type="submit" value="Send" class="text-right pointer" />
+        <label className="text-sm lg:text-md">Message</label>
+        <textarea className="message border-none text-stone-900" />
+        <input type="submit" value="Send" className="text-right pointer" />
       </form>
     </div>
   );

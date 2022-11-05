@@ -7,7 +7,7 @@ const HamburgerHeader = (props) => {
   };
 
   return (
-    <div class="p-5 cursor-pointer">
+    <div className="p-5 cursor-pointer">
       <Link
         className={headerPage === selectedPage ? "neon-red text-[#FF5757]" : ""}
         onClick={redText}

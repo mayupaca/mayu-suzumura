@@ -1,21 +1,21 @@
 import React from "react";
-import bgImage from "../../images/code_pic.jpg";
+// import bgImage from "../../images/code_pic.jpg";
 
 const About = () => {
   return (
-    <div name="about" class="w-full h-96 relative">
+    <div className="about w-full h-96 relative">
       <div>
         <img
-          src={bgImage}
+          src="../../../public/images/code_pic.jpg"
           alt="codePic"
-          class="w-full h-[50rem] object-cover opacity-40 absolute"
+          className="w-full h-[50rem] object-cover opacity-40 absolute"
         ></img>
 
-        <div class="w-[90%] lg:w-[30%] mx-auto flex flex-col justify-center pt-20">
-          <h1 class="my-8 text-3xl lg:text-4xl flex justify-center z-10">
-            <p class="neon-green">Nice to Meet You&nbsp;:)</p>
+        <div className="w-[90%] lg:w-[30%] mx-auto flex flex-col justify-center pt-20">
+          <h1 className="my-8 text-3xl lg:text-4xl flex justify-center z-10">
+            <p className="neon-green">Nice to Meet You&nbsp;:)</p>
           </h1>
-          <p class="flex justify-center text-center z-10 text-lg lg:text-xl ">
+          <p className="flex justify-center text-center z-10 text-lg lg:text-xl ">
             Hello!
             <br />
             I am Mayu. Welcome to my portfolio. I am an entry-level full-stack
