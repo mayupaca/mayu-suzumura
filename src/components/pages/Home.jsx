@@ -5,30 +5,30 @@ import "../../style/neon.css";
 const Home = () => {
   const PUBLIC_URL = process.env.PUBLIC_URL;
   return (
-    <div className="home container mx-auto items-center w-screen h-screen block md:flex md:justify-center">
-      <div className="profilePicture">
-        <div className="">
+    <div className="home container flex flex-col justify-center mx-auto items-center w-screen h-screen">
+      <div className="md:relative md:right-[10%]">
+        <div className="flex justify-center mb-3">
           <img
-            className="w-[30vh] lg:w-[45vh] rounded-full shadow-2xl shadow-green-500/50 opacity-70"
+            className="w-[30vh] lg:w-[45vh] rounded-full shadow-2xl shadow-green-500/50"
             src={`${PUBLIC_URL}images/profilepic.JPG`}
             alt="me"
           ></img>
         </div>
-      </div>
-      <div className="intro text-right">
-        <div className="text-4xl lg:text-7xl">
-          <p className="mb-3">Hello World!</p>
-          <p className="mb-3">
-            <span className="neon-yellow ">I&nbsp;</span>am&nbsp;
-          </p>
-          <p className="mb-3 ">
-            <span className="neon-yellow">Mayu&nbsp;Suzumura</span>.
-          </p>
-        </div>
-        <div>
-          <p className="text-3xl lg:text-5xl mt-5 mb-3">
-            I am a<span className="neon-red">&nbsp;web developer</span>.
-          </p>
+        <div className="intro md:absolute md:bottom-0 md:left-2/4">
+          <div className="text-4xl md:text-5xl lg:text-7xl text-right">
+            <p className="mb-3">Hello World!</p>
+            <p className="mb-3">
+              <span className="neon-yellow ">I&nbsp;</span>am&nbsp;
+            </p>
+            <p className="mb-3 ">
+              <span className="neon-yellow">Mayu&nbsp;Suzumura</span>.
+            </p>
+          </div>
+          <div>
+            <p className="text-3xl text-right md:text-4xl lg:text-5xl mt-5">
+              I am a<span className="neon-red">&nbsp;web developer</span>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
