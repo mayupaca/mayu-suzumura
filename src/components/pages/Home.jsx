@@ -6,16 +6,16 @@ const Home = () => {
   const PUBLIC_URL = process.env.PUBLIC_URL;
   return (
     <div className="home container flex flex-col justify-center mx-auto items-center w-screen h-screen">
-      <div className="md:relative md:right-[10%]">
+      <div className="md:relative md:right-[15%] md:bottom-[10%]">
         <div className="flex justify-center mb-3">
           <img
-            className="w-[30vh] lg:w-[45vh] rounded-full shadow-2xl shadow-green-500/50"
+            className="w-[30vh] lg:w-[30vh] rounded-full shadow-2xl shadow-green-500/50"
             src={`${PUBLIC_URL}images/profilepic.JPG`}
             alt="me"
           ></img>
         </div>
-        <div className="intro md:absolute md:bottom-0 md:left-2/4">
-          <div className="text-4xl md:text-5xl lg:text-7xl text-right">
+        <div className="intro md:absolute md:bottom-0 md:left-[65%]">
+          <div className="text-4xl md:text-5xl lg:text-6xl text-right">
             <p className="mb-3">Hello World!</p>
             <p className="mb-3">
               <span className="neon-yellow ">I&nbsp;</span>am&nbsp;
@@ -25,7 +25,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <p className="text-3xl text-right md:text-4xl lg:text-5xl mt-5">
+            <p className="text-3xl text-right md:text-4xl mt-5">
               I am a<span className="neon-red">&nbsp;web developer</span>.
             </p>
           </div>
