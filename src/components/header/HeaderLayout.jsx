@@ -15,8 +15,8 @@ const HeaderLayout = () => {
   };
 
   return (
-    <div className="fixed left-[-12] w-[100%] flex items-center justify-end h-20 lg:h-24 px-4 text-white bg-[#292929] z-50">
-      <ul className="hidden lg:flex">
+    <div className="header flex justify-end container w-[100%] items-center h-20 md:h-24 px-4 text-white bg-[#292929] z-100">
+      <ul className="hidden md:flex">
         {headerPages.map((headerPage) => (
           <Header
             headerPage={headerPage}
@@ -28,12 +28,12 @@ const HeaderLayout = () => {
           </Header>
         ))}
         <div className="resume neon-green items-center text-[#FF5757] mr-10">
-          <a href="#">
+          <a href="https://drive.google.com/file/d/1boPHsuO6O3F5PeNc3FeG-C3OsK5EedYb/view?usp=sharing">
             resume
           </a>
         </div>
       </ul>
-      <div className="block lg:hidden" onClick={handleBurger} >
+      <div className="block md:hidden" onClick={handleBurger}>
         {hamburger ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <ul
