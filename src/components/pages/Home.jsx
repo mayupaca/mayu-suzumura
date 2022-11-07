@@ -2,14 +2,13 @@ import React from "react";
 import "../../style/neon.css";
 import TypeAnimation from "../typing/TypeAnimation";
 import "../../style/animationBg.css"
-// import profilePic from "images/profilepic.JPG";
 
 const Home = () => {
   const PUBLIC_URL = process.env.PUBLIC_URL;
   return (
-    <div className="home container flex flex-col justify-center mx-auto items-center w-screen h-screen">
-      <div class="area">
-        <ul class="circles">
+    <div className="home container mx-auto w-screen h-screen flex flex-col justify-center items-center">
+      <div className="area">
+        <ul className="circles">
           <li></li>
           <li></li>
           <li></li>
