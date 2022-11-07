@@ -1,12 +1,27 @@
 import React from "react";
 import "../../style/neon.css";
 import TypeAnimation from "../typing/TypeAnimation";
+import "../../style/animationBg.css"
 // import profilePic from "images/profilepic.JPG";
 
 const Home = () => {
   const PUBLIC_URL = process.env.PUBLIC_URL;
   return (
     <div className="home container flex flex-col justify-center mx-auto items-center w-screen h-screen">
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
       <div className="md:relative md:right-[15%] md:bottom-[10%]">
         <div className="flex justify-center mb-3">
           <img
