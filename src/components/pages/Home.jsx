@@ -1,5 +1,6 @@
 import React from "react";
 import "../../style/neon.css";
+import TypeAnimation from "../typing/TypeAnimation";
 // import profilePic from "images/profilepic.JPG";
 
 const Home = () => {
@@ -16,10 +17,11 @@ const Home = () => {
         </div>
         <div className="intro md:absolute md:bottom-0 md:left-[65%]">
           <div className="text-4xl md:text-5xl lg:text-6xl text-right">
-            <p className="mb-3">Hello World!</p>
-            <p className="mb-3">
-              <span className="neon-yellow ">I&nbsp;</span>am&nbsp;
-            </p>
+            <div className="mb-3">
+              <TypeAnimation />
+            </div>
+
+            <p className="mb-3">I am</p>
             <p className="mb-3 ">
               <span className="neon-yellow">Mayu&nbsp;Suzumura</span>.
             </p>
