@@ -25,7 +25,7 @@ const Home = () => {
       <div className="md:relative md:right-[15%] md:bottom-[10%]">
         <div className="flex justify-center mb-3">
           <img
-            className="w-[30vh] lg:w-[30vh] rounded-full shadow-2xl shadow-green-500/50"
+            className="w-[30vh] lg:w-[40vh] rounded-full shadow-2xl shadow-green-500/50"
             src={`${PUBLIC_URL}images/profilepic.JPG`}
             alt="me"
           ></img>
