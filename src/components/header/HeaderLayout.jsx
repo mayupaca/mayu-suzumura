@@ -15,8 +15,8 @@ const HeaderLayout = () => {
   };
 
   return (
-    <div className="text-white bg-[#292929]">
-      <div className="mx-auto flex justify-end items-center h-24 w-[50%] ">
+    <div className=" text-white bg-[#292929] z-50 relative">
+      <div className="flex justify-end items-center mx-auto md:h-20 w-[50%]">
         <div>
           <ul className="hidden md:flex">
             {headerPages.map((headerPage) => (
@@ -38,7 +38,7 @@ const HeaderLayout = () => {
         </div>
       </div>
       {/* Hamburger */}
-      <div className="flex justify-end">
+      <div className="flex justify-end mt-5 mr-5 z-auto">
         <div className="block md:hidden" onClick={handleBurger}>
           {hamburger ? (
             <AiOutlineClose size={20} />
