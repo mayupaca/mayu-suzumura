@@ -5,7 +5,7 @@ const About = () => {
   const PUBLIC_URL = process.env.PUBLIC_URL;
 
   return (
-    <div className="about w-screen h-screen relative flex items-center">
+    <div className="about mt-16 md:mt-0 w-screen md:h-screen relative flex items-center">
       <img
         src={`${PUBLIC_URL}images/code_pic.jpg`}
         alt="codePic"
