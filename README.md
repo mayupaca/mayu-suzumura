@@ -4,6 +4,5 @@
 
 - HTML
 - CSS
-- SCSS
 - Tailwind
 - React
