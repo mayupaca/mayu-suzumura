@@ -15,7 +15,7 @@ const HeaderLayout = () => {
   };
 
   return (
-    <div className=" text-white bg-[#292929] z-50 relative">
+    <div className=" text-white bg-[#292929] mb-5 z-50 relative">
       <div className="flex justify-end items-center mx-auto md:h-20 w-[50%]">
         <div>
           <ul className="hidden md:flex">
@@ -38,7 +38,7 @@ const HeaderLayout = () => {
         </div>
       </div>
       {/* Hamburger */}
-      <div className="flex justify-end mt-5 mr-5 z-auto">
+      <div className="flex justify-end m-5 mr-5 z-50">
         <div className="block md:hidden" onClick={handleBurger}>
           {hamburger ? (
             <AiOutlineClose size={20} />
@@ -49,7 +49,7 @@ const HeaderLayout = () => {
         <ul
           className={
             hamburger
-              ? "fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-500 bg-[#6c6f6c] ease-in-out duration-500"
+              ? "fixed left-0 top-0 w-[50%] h-full bg-[#292929] opacity-90 ease-in-out duration-500"
               : "ease-in-out duration-500 fixed left-[-100%]"
           }
         >
@@ -59,6 +59,7 @@ const HeaderLayout = () => {
               setSelectedPage={setSelectedPage}
               selectedPage={selectedPage}
               key={headerPage}
+             
             >
               {headerPage}
             </HamburgerHeader>

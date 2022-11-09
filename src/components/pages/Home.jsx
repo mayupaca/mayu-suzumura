@@ -1,7 +1,7 @@
 import React from "react";
 import "../../style/neon.css";
-import TypeAnimation from "../typing/TypeAnimation";
-import "../../style/animationBg.css"
+import TypeAnimation from "../animation/typing/TypeAnimation";
+import "../../style/animationBg.css";
 
 const Home = () => {
   const PUBLIC_URL = process.env.PUBLIC_URL;
