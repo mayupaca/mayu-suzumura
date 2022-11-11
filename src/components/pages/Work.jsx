@@ -61,13 +61,13 @@ const Work = () => {
   ];
 
   return (
-    <div className="work py-10 w-screen md:h-full mb-24 md:mb-52 flex flex-col justify-center items-center">
+    <div className="work py-10 w-screen md:h-full mb-24 md:mb-52 flex flex-col justify-start items-center">
       <h1 className="neon-green mb-10 text-3xl ">My Projects</h1>
-      <div className="w-[90%] flex justify-center ">
-        <div className="flex flex-wrap justify-center">
+      <div className="w-[90%] md:w-[80%]">
+        <div className="flex flex-wrap justify-center md:justify-between items-center">
           {projects.map((project, index) => (
             <div
-              className="max-w-xs rounded mb-8 md:m-5 overflow-hidden shadow-xl shadow-gray-500"
+              className="max-w-xs rounded mb-8 md:m-5 overflow-hidden shadow-xl shadow-gray-500 hover:bg-gray-900 transition duration-500 hover:scale-125"
               key={index}
             >
               <img
@@ -89,7 +89,7 @@ const Work = () => {
                     href={project.git_repo}
                     className="inline-block rounded bg-[#BBED2F] px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
                   >
-                    Git Repo
+                    GitHub Repo
                   </a>
                 </div>
                 <div>
