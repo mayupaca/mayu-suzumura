@@ -21,7 +21,7 @@ import { ReactComponent as Mongodb } from "../../assets/mongodb-icon.svg";
 
 const Skill = () => {
   const { ref, inView } = useInView({
-    rootMargin: "-300px",
+    rootMargin: "-100px",
     triggerOnce: true,
   });
   return (
