@@ -25,7 +25,7 @@ const Skill = () => {
     triggerOnce: true,
   });
   return (
-    <div className="skill my-20 md:mt-0 md:h-screen flex flex-col justify-center items-center">
+    <div className="skill py-20 md:h-screen flex flex-col justify-center items-center">
       <div className=" w-[90%] md:w-[60%]">
         <h1 className="animated bounce text-3xl text-wite flex justify-center mb-10 neon-yellow">
           Mayu's Tech Stack
