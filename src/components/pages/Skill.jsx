@@ -27,30 +27,34 @@ const Skill = () => {
   return (
     <div className="skill my-10 md:h-screen flex flex-col justify-center items-center">
       <div className=" w-[90%] md:w-[60%]">
-        <h1 className="animated bounce text-3xl text-wite flex justify-center my-10 neon-yellow">
-          Mayu's Tech Stack
-        </h1>
-      </div>
-      <div ref={ref}>
-        {inView && (
-          <div className="animated fadeInDown w-[90%] md:w-[55%] mx-auto flex flex-wrap justify-center">
-            <JavaScript className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Html className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Css className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <ReactLogo className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Sass className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Bootstrap className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Tailwind className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <MaterialUi className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Node className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Express className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <PostgreSql className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Mongodb className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Figma className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Git className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-            <Github className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-          </div>
-        )}
+        <div ref={ref}>
+          {inView && (
+            <h1 className="animated bounce text-3xl text-wite flex justify-center my-10 neon-yellow">
+              Mayu's Tech Stack
+            </h1>
+          )}
+        </div>
+        <div ref={ref}>
+          {inView && (
+            <div className="animated fadeInDown w-[90%] md:w-[55%] mx-auto flex flex-wrap justify-center">
+              <JavaScript className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Html className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Css className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <ReactLogo className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Sass className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Bootstrap className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Tailwind className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <MaterialUi className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Node className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Express className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <PostgreSql className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Mongodb className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Figma className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Git className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Github className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
