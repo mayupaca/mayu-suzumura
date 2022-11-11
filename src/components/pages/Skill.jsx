@@ -21,11 +21,11 @@ import { ReactComponent as Mongodb } from "../../assets/mongodb-icon.svg";
 
 const Skill = () => {
   const { ref, inView } = useInView({
-    rootMargin: "-100px",
+    rootMargin: "-300px",
     triggerOnce: true,
   });
   return (
-    <div className="skill mt-20 md:mt-0 md:h-screen flex flex-col justify-center items-center">
+    <div className="skill my-20 md:mt-0 md:h-screen flex flex-col justify-center items-center">
       <div className=" w-[90%] md:w-[60%]">
         <h1 className="animated bounce text-3xl text-wite flex justify-center mb-10 neon-yellow">
           Mayu's Tech Stack

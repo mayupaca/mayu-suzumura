@@ -63,7 +63,7 @@ const Work = () => {
   return (
     <div className="work mt-20 w-screen md:h-full mb-24 md:mb-52 flex flex-col justify-center items-center">
       <h1 className="neon-green mb-10 text-3xl ">My Projects</h1>
-      <div className="w-[90%] md:mx-[30%] flex justify-center ">
+      <div className="w-[90%] flex justify-center ">
         <div className="flex flex-wrap justify-center">
           {projects.map((project, index) => (
             <div
