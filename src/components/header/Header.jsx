@@ -13,7 +13,7 @@ const Header = (props) => {
         onClick={redText}
         to={headerPage}
         smooth={true}
-        duration={500}
+        duration={1000}
       >
         {headerPage}
       </Link>

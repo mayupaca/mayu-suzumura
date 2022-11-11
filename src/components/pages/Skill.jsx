@@ -25,15 +25,15 @@ const Skill = () => {
     triggerOnce: true,
   });
   return (
-    <div className="techStack mt-16 md:mt-0 md:h-screen flex flex-col justify-center items-center">
-      <div className="w-[90%] md:w-[60%]">
-        <h1 className=" text-3xl text-wite flex justify-center mb-10 neon-yellow">
+    <div className="skill mt-20 md:mt-0 md:h-screen flex flex-col justify-center items-center">
+      <div className=" w-[90%] md:w-[60%]">
+        <h1 className="animated bounce text-3xl text-wite flex justify-center mb-10 neon-yellow">
           Mayu's Tech Stack
         </h1>
       </div>
       <div ref={ref}>
         {inView && (
-          <div className="animate__fadeInDown w-[90%] md:w-[55%] mx-auto flex flex-wrap justify-center">
+          <div className="animated fadeInDown w-[90%] md:w-[55%] mx-auto flex flex-wrap justify-center">
             <JavaScript className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
             <Html className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
             <Css className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
