@@ -25,7 +25,7 @@ const Skill = () => {
     triggerOnce: true,
   });
   return (
-    <div className="skill my-10 md:h-screen flex flex-col justify-center items-center">
+    <div className="skill my-20 md:h-screen flex flex-col justify-center items-center">
       <div className=" w-[90%] md:w-[60%]">
         <div ref={ref}>
           {inView && (
@@ -36,7 +36,7 @@ const Skill = () => {
         </div>
         <div ref={ref}>
           {inView && (
-            <div className="animated fadeInDown w-[90%] md:w-[55%] mx-auto flex flex-wrap justify-center">
+            <div className="animated fadeInDown w-[90%] md:w-[80%] mx-auto flex flex-wrap justify-center">
               <JavaScript className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
               <Html className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
               <Css className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />

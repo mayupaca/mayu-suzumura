@@ -61,13 +61,13 @@ const Work = () => {
   ];
 
   return (
-    <div className="work py-10 w-screen md:h-full mb-24 md:mb-52 flex flex-col justify-start items-center">
+    <div className="work md:py-20 w-screen md:h-full mb-24 md:mb-52 flex flex-col justify-start items-center">
       <h1 className="neon-green mb-10 text-3xl ">My Projects</h1>
       <div className="w-[90%] md:w-[80%]">
-        <div className="flex flex-wrap justify-center md:justify-between items-center">
+        <div className="md:grid gap-4 grid-cols-3 grid-rows-2 place-items-center">
           {projects.map((project, index) => (
             <div
-              className="max-w-xs rounded mb-8 md:m-5 overflow-hidden shadow-xl shadow-gray-500 hover:bg-gray-900 transition duration-500 hover:scale-125"
+              className="max-w-xs rounded mb-8 md:m-5 overflow-hidden shadow-xl shadow-gray-500 md:hover:bg-gray-900 md:transition md:duration-500 md:hover:scale-125"
               key={index}
             >
               <img
