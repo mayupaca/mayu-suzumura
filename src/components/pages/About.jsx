@@ -19,8 +19,7 @@ const About = () => {
         <p className="flex justify-center text-center z-10 text-lg lg:text-2xl mb-6">
           Hello!
           <br />
-          I am Mayu. Welcome to my portfolio. <br />I am an entry-level
-          full-stack web developer based in Toronto, Canada but originally from
+          I am Mayu. Welcome to my portfolio. <br />I am an entry-level web developer based in Toronto, Canada but originally from
           Japan.
           <br />
           I used to teach Japanese to my students from all over the world and
