@@ -15,7 +15,7 @@ const HeaderLayout = () => {
   };
 
   return (
-    <div className=" text-white bg-[#292929] mb-5 z-50 relative">
+    <div className="text-white bg-[#292929] mb-5 z-50 relative">
       <div className="flex justify-end items-center mx-auto md:h-20 w-[50%]">
         <div>
           <ul className="hidden md:flex">
@@ -30,7 +30,7 @@ const HeaderLayout = () => {
               </Header>
             ))}
             <div className="resume neon-green items-center text-[#FF5757]">
-              <a href="https://drive.google.com/file/d/1boPHsuO6O3F5PeNc3FeG-C3OsK5EedYb/view?usp=sharing">
+              <a href="#">
                 resume
               </a>
             </div>
@@ -38,7 +38,7 @@ const HeaderLayout = () => {
         </div>
       </div>
       {/* Hamburger */}
-      <div className="flex justify-end m-5 mr-5 z-50">
+      <div className="sticky flex justify-end m-5 mr-5 z-50">
         <div className="block md:hidden" onClick={handleBurger}>
           {hamburger ? (
             <AiOutlineClose size={20} />
@@ -65,7 +65,7 @@ const HeaderLayout = () => {
             </HamburgerHeader>
           ))}
           <div className="resume neon-green items-center text-[#FF5757] p-5">
-            <a href="https://drive.google.com/file/d/1x2VjdKUOMgghpeNqTKWNguGvuI9n5sj3/view?usp=sharing">
+            <a href="#">
               resume
             </a>
           </div>
