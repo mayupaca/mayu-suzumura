@@ -18,6 +18,8 @@ import { ReactComponent as Figma } from "../../assets/figma.svg";
 import { ReactComponent as Github } from "../../assets/github-icon.svg";
 import { ReactComponent as Git } from "../../assets/git-icon.svg";
 import { ReactComponent as Mongodb } from "../../assets/mongodb-icon.svg";
+import { ReactComponent as Npm } from "../../assets/npm-icon.svg";
+
 
 const Skill = () => {
   const { ref, inView } = useInView({
@@ -49,9 +51,10 @@ const Skill = () => {
               <Express className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
               <PostgreSql className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
               <Mongodb className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
-              <Figma className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
               <Git className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Npm className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
               <Github className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
+              <Figma className="w-[60px] md:w-[100px] h-[60px] md:h-[100px] m-3 mb-10 p-1 md:m-5 md:p-3 bg-slate-200 rounded-md shadow-xl shadow-slate-500" />
             </div>
           )}
         </div>

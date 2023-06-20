@@ -12,6 +12,7 @@ const Work = () => {
       git_repo: "https://github.com/mayupaca/mayu-suzumura",
       image: PUBLIC_URL + "images/projectImages/mayufolio.png",
       alt: "MayuFolio",
+      description: "This is my portfolio website. I used React, Tailwind CSS and Vercel. Put my information and projects.",
     },
     {
       name: "Stay World",
@@ -19,6 +20,7 @@ const Work = () => {
       git_repo: "https://github.com/mayupaca/stay_world",
       image: PUBLIC_URL + "images/projectImages/stayworld1.png",
       alt: "stay_world",
+      description: "This is a website where you can find a place to stay. This is used HTML,CSS and Vanilla JavaScript.",
     },
     {
       name: "YuluCamp",
@@ -26,6 +28,7 @@ const Work = () => {
       git_repo: "https://github.com/mayupaca/YuluCamp",
       image: PUBLIC_URL + "images/projectImages/yuluCampHome.png",
       alt: "yuluCamp",
+      description: "This is a website where you can find a Campsite. You can also add a new campsite.",
     },
     {
       name: "Twistagram",
@@ -33,6 +36,8 @@ const Work = () => {
       git_repo: "https://github.com/mayupaca/twistagram-frontend",
       image: PUBLIC_URL + "images/projectImages/twistagram_home.png",
       alt: "twistagram",
+      description: "This is Twitter and Instagram clone. You can post a new tweet and like it.",
+
     },
     {
       name: "Interview Scheduler",
@@ -41,15 +46,17 @@ const Work = () => {
       image:
         "https://github.com/mayupaca/scheduler/blob/master/docs/Schedule_top.png?raw=true",
       alt: "scheduler",
+      description: "This is a website where you can book an interview. You can also edit and delete it.",
     },
-    {
-      name: "tweeter",
-      url: "",
-      git_repo: "https://github.com/mayupaca/tweeter",
-      image:
-        "https://github.com/mayupaca/Tweeter-Project/blob/master/docs/tweeter1.png?raw=true",
-      alt: "tweeter",
-    },
+    // {
+    //   name: "tweeter",
+    //   url: "",
+    //   git_repo: "https://github.com/mayupaca/tweeter",
+    //   image:
+    //     "https://github.com/mayupaca/Tweeter-Project/blob/master/docs/tweeter1.png?raw=true",
+    //   alt: "tweeter",
+    //   description: "",
+    // },
     // {
     //   name: "TinyApp",
     //   url: "",
@@ -78,9 +85,7 @@ const Work = () => {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{project.name}</div>
                 <p className="text-white-700 text-sm ">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                  exercitationem praesentium nihil.
+                  {project.description}
                 </p>
               </div>
               <div className="px-6 pt-4 pb-2 mb-5 flex">

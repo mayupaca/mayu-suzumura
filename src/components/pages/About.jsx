@@ -28,7 +28,7 @@ const About = () => {
           <br />
           Other than coding, I spend most of my free time with my sweet cat (He
           is sooo adorable!!). I have also been trying to study more
-          technologies. Currently, web3.0 and blockchain that I am into.
+          technologies. 
         </p>
         <div className="flex justify-center z-10">
           <img
