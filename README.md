@@ -6,3 +6,5 @@
 - CSS
 - Tailwind
 - React
+- react-intersection-observer
+- Animate.css(animation)
